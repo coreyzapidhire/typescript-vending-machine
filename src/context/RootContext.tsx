@@ -6,7 +6,7 @@ export interface IJobContextValues {
   credit: number;
   buyErrors: any;
   setBuyErrors?: (errors: any) => void;
-  setCredit?: (value: number) => void;
+  setCredit: (value: number) => void;
   purchaseItem: (id: number) => any;
   setProducts: (products: any) => void;
   products?: IItem[];
@@ -18,6 +18,7 @@ export const RootContext = React.createContext<IJobContextValues>({
   setProducts: () => {},
   products: [],
   purchaseItem: () => {},
+  setCredit: () => {}
 });
 
 export const RootContextProvider = ({ children }: { children: any }) => {
