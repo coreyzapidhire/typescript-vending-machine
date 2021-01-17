@@ -5,7 +5,6 @@ export const Container = styled.div`
   flexdirection: "column";
 `;
 
-
 export const Text = styled.p`
 
 `;
