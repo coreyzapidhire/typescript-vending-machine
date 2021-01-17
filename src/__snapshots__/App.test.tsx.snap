@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen renders correctly 1`] = `
+<div
+  className="sc-bdfBwQ cmLqsX"
+>
+  <div
+    className="sc-bdfBwQ cmLqsX"
+  />
+  <div
+    className="sc-hKgILt eOexKO"
+  >
+    <p
+      className="sc-jSgupP"
+    >
+      Enter Credit
+    </p>
+    <input
+      className="sc-eCssSg ejiVVT"
+      onChange={[Function]}
+      placeholder="Enter Amount"
+      step="any"
+      title="Enter Amount"
+    />
+  </div>
+  <button
+    className="sc-dlfnbm bufZIA"
+    onClick={[Function]}
+  >
+    Add Credit
+  </button>
+</div>
+`;
