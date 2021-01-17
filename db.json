@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Caramel",
+      "priceInCents": 250,
+      "stock": 0
+    },
+    {
+      "id": 2,
+      "title": "Hazelnut",
+      "priceInCents": 310,
+      "stock": 4
+    },
+    {
+      "id": 3,
+      "title": "Organic Raw",
+      "priceInCents": 200,
+      "stock": 6
+    }
+  ]
+}
