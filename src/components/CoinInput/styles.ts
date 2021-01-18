@@ -16,6 +16,14 @@ export const AddCreditButton = styled.button`
   }
 `;
 
+export const RefundButton = styled(AddCreditButton)`
+  background-color: #008CBA;
+
+  &:active {
+    background-color: #006CBA;
+  }
+`;
+
 export const InputWrapper = styled.div`
   display: "flex";
   flexdirection: "column";
